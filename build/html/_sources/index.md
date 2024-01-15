@@ -9,50 +9,34 @@ html_theme.sidebar_secondary.remove: true
 
 ```{toctree}
 :maxdepth: 2
-:caption: Home
+:caption: Acceuil
 :hidden:
 
 content/index
 ```
 
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/63da4028c2f1ac1e2030c5e3/1go68l7fv';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+<p class="emphase2"> Mon Copilot </p>
+
+# Pharmagest
+
+<p class="emphase"> Projet </p>
+
+J'ai les outils (Jupyter Book) pour monter un grand projet. J'ai envie de progrésser sur la voie que j'empreinte et je pense que vous pouvez en bénificier. J'aimerai développer ma propre méthode pour créer et diffuser mes formations, celles ci prendraient (à terme) la forme:<br>
+- Un espace de creation collaboratif dédié a l'utilisation du logiel (Usage Interne)
+- Une librairie de fiche produit, tutorials et cas pratiques en ligne (Usage Interne + Externe (partage Individuel)) 
+- Une experience pédagogique (Possibilité d'intéragir 24/24 par différents canaux), différentes méthods de dialogue 
+    - Stream
+    - Teams mettings
+    - Chat
+- **Réseau social coopératif** (nos valeurs), national, dont les utilisateurs seraient les clients (pharamciens licenciés), édité par mes soins (+ developper) et managé par un community manager (type Lucie David) 
 
 
-<br>
-<br>
+- Gratuit
 
-:::{image} _static/Title/physio-pharm.svg
-:width: 100%
-:::
+- Maléable
 
-***
+<p class="emphase"> Objectifs </p>
 
-
-<br>
-
-# La pharmacie
-
-<p class="emphase"> Autrement ...</p>
-
-```{admonition} To Do
-
-- Commencer a travailler pour définir le concept:
-
-Crééer une plateforme sur laquel j'entend digitaliser les cours de pharmacie pour en faire une plateforme d'aide a l'observance
-
-```
-
+- Monter un Projet et créer les outils 
 
 

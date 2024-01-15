@@ -1,0 +1,854 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formation Day 1 &#8212; Pharmagest 0.0.1 documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom_style.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'content/FormationD1';</script>
+    <link rel="shortcut icon" href="../_static/Logo-Equasens.jpg"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Formation Day 2" href="FormationD2.html" />
+    <link rel="prev" title="To check" href="Appendix/to-check.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  <div class="navbar-header-items__start">
+    
+      <div class="navbar-item">
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/Logo-Equasens.jpg" class="logo__image only-light" alt=" &nbsp Pharmagest &nbsp &nbsp"/>
+    <script>document.write(`<img src="../_static/Logo-Equasens.jpg" class="logo__image only-dark" alt=" &nbsp Pharmagest &nbsp &nbsp"/>`);</script>
+  
+  
+    <p class="title logo__title"> &nbsp Pharmagest &nbsp &nbsp </p>
+  
+</a></div>
+    
+  </div>
+  
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item"><nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="index.html">
+                        Acceuil
+                      </a>
+                    </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="">
+                    &nbsp &nbsp &nbsp &nbsp 💫 Logiciel ID &nbsp
+                  </a>
+                </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="">
+                    &nbsp &nbsp &nbsp &nbsp 💫 ID.Decisionel &nbsp
+                  </a>
+                </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="">
+                    &nbsp &nbsp &nbsp &nbsp 💫 ID.Mobilité &nbsp
+                  </a>
+                </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="">
+                    &nbsp &nbsp &nbsp &nbsp 💫 OFFIMSS &nbsp
+                  </a>
+                </li>
+                
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+        </div>
+      
+      
+        <div class="navbar-item">
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/Deugz/Encyclopedia-Home" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github"></i></span>
+            <label class="sr-only">GitHub</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/Encyclopedia-Home/build/html/index.html" title="Home" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-house"></i></span>
+            <label class="sr-only">Home</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/nb-profile/_build/html/intro.html" title="Profile" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-user"></i></span>
+            <label class="sr-only">Profile</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/ab-blog/_website/index.html" title="Blog" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-blog"></i></span>
+            <label class="sr-only">Blog</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/nb-tools/_build/html/intro.html" title="Tools" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-screwdriver-wrench"></i></span>
+            <label class="sr-only">Tools</label></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+    </div>
+  
+
+  
+    <label class="sidebar-toggle secondary-toggle" for="__secondary">
+      <span class="fa-solid fa-outdent"></span>
+    </label>
+  
+</div>
+
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item"><nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="index.html">
+                        Acceuil
+                      </a>
+                    </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="">
+                    &nbsp &nbsp &nbsp &nbsp 💫 Logiciel ID &nbsp
+                  </a>
+                </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="">
+                    &nbsp &nbsp &nbsp &nbsp 💫 ID.Decisionel &nbsp
+                  </a>
+                </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="">
+                    &nbsp &nbsp &nbsp &nbsp 💫 ID.Mobilité &nbsp
+                  </a>
+                </li>
+                
+
+                <li class="nav-item">
+                  <a class="nav-link nav-external" href="">
+                    &nbsp &nbsp &nbsp &nbsp 💫 OFFIMSS &nbsp
+                  </a>
+                </li>
+                
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/Deugz/Encyclopedia-Home" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github"></i></span>
+            <label class="sr-only">GitHub</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/Encyclopedia-Home/build/html/index.html" title="Home" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-house"></i></span>
+            <label class="sr-only">Home</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/nb-profile/_build/html/intro.html" title="Profile" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-user"></i></span>
+            <label class="sr-only">Profile</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/ab-blog/_website/index.html" title="Blog" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-blog"></i></span>
+            <label class="sr-only">Blog</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://deugz.github.io/nb-tools/_build/html/intro.html" title="Tools" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-solid fa-screwdriver-wrench"></i></span>
+            <label class="sr-only">Tools</label></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item"><nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Présentations</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Introduction/Pr%C3%A9sentations/Equasens/Info.html">Le groupe Equasens</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Introduction/Pr%C3%A9sentations/Profil/V-Deguin.html">L’auteur, éditeur</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Projet</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Introduction/Projet/Definition.html">Definition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Introduction/Projet/Objectifs.html">Objectifs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Introduction/Projet/Roadmap.html">Roadmap</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Solutions</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Solutions/ID.html">ID</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendix</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Appendix/to-check.html">To check</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Formation Day 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FormationD2.html">Formation Day 2</a></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumbs">
+  <ul class="bd-breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="index.html" class="nav-link">Acceuil</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page">Formation Day 1</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <div class="section" id="formation-day-1">
+<h1>Formation Day 1<a class="headerlink" href="#formation-day-1" title="Permalink to this heading">#</a></h1>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p>Récupérer les diapositives et implémenter les shémas tout ca.</p>
+<ul class="last simple">
+<li>Créer une section ou on parle de généralités sur la pharmacie</li>
+</ul>
+</div>
+<div class="section" id="matin">
+<h2>28/11 Matin<a class="headerlink" href="#matin" title="Permalink to this heading">#</a></h2>
+<p><strong>Plan</strong></p>
+<ul class="simple">
+<li>Environnement pharmacie</li>
+<li>Vente (Comptoir)</li>
+<li>Quotidien pharma<ul>
+<li>Commande repartiteur</li>
+<li>Edition journal vente</li>
+</ul>
+</li>
+</ul>
+<div class="section" id="le-metier-du-pharmacien-et-son-environnement">
+<h3>Le métier du pharmacien et son environnement<a class="headerlink" href="#le-metier-du-pharmacien-et-son-environnement" title="Permalink to this heading">#</a></h3>
+<div class="section" id="pharmacie-d-officine-definition">
+<h4>Pharmacie d’officine definition<a class="headerlink" href="#pharmacie-d-officine-definition" title="Permalink to this heading">#</a></h4>
+<p>Hygie: déesse grec (checker fonction)</p>
+<p>Definition: <strong>Dispensation au détail</strong></p>
+<ul class="simple">
+<li>Achat groupé</li>
+</ul>
+<p>CAP = centrale d’achat pharmaceutique (répartiteur)
+SRA = Société de Regroupement a l’Achat</p>
+<p>Controle: DGCCRF</p>
+<p>Difference magistrale et officinale</p>
+<ul class="simple">
+<li>Magistrale (pour un patient avec une prescription) - remboursable que si tout les produits sont remboursables (perd en popularité)</li>
+<li>Officinale (selon la pharmacopée) pris par les laboratoires (ex Dakin)</li>
+</ul>
+<div class="section" id="pilliers">
+<h5>3 pilliers<a class="headerlink" href="#pilliers" title="Permalink to this heading">#</a></h5>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Statut</p>
+<ul class="last simple">
+<li>SEL</li>
+</ul>
+</div>
+<ul class="simple">
+<li>Obligation de diplome</li>
+<li>Monopole</li>
+<li>Numerus clausus<ul>
+<li><strong>Derogations</strong></li>
+</ul>
+</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<ul class="simple">
+<li>Rémunération:</li>
+</ul>
+<p class="last">Marge (anciens) vs honoraires (recent, exemple vaccination, gardes)</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Honoraires sont quelques part dans ID (table), <strong>Chercher</strong></p>
+</div>
+</div>
+<div class="section" id="monopole">
+<h5>Monopole<a class="headerlink" href="#monopole" title="Permalink to this heading">#</a></h5>
+<ul class="simple">
+<li>Médicament, définition: (code de la santé publique)</li>
+<li>Dossier pharmaceutique: Sera intégré au DMP<ul>
+<li>DMP: checker histoire création (tout les professionels de santé impliqués sauf pharmaciens)</li>
+</ul>
+</li>
+<li>CNOP: Conseil National Ordre Pharmaciens<ul>
+<li>Cotisations ont augmenté pour pouvoir créer cela</li>
+</ul>
+</li>
+<li>ROSP: Revenue sur Objectif de Santé Publique<ul>
+<li>Objectif generique</li>
+<li>Alimentation DMP</li>
+<li>Délivrance a l’unité</li>
+<li>…</li>
+</ul>
+</li>
+<li>ARS: Agence regional de Santé (décentralisation du ministère de la santé - Adaptation regional de la politique national - ex cancer de la peu dans le sud-est)</li>
+<li>CSP: Code de la Santé Publique</li>
+</ul>
+<p>Tout patient a une pharmacie a moins de 20 minutes de chez eux</p>
+</div>
+<div class="section" id="conditions-d-exercices">
+<h5>Conditions d’exercices<a class="headerlink" href="#conditions-d-exercices" title="Permalink to this heading">#</a></h5>
+<p>Quotas de pharmaciens par chiffre d’affaire (un tout les 1 300 000 euros de CA (HT))</p>
+<ul class="simple">
+<li>la PDA, le PDA, Pas pareil</li>
+</ul>
+<p>Loi HPST fait evoluer les metiers de la pharmacie (2009) Hopital Patient Santé Territoire</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>A checker, nouvelles missions du pharmaciens, notemment entretiens</p>
+<ul class="last simple">
+<li>Checker diapos
+Certaines demandent des formations</li>
+</ul>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<ul class="last simple">
+<li>Entretiens se font sur ID</li>
+</ul>
+</div>
+<p>numéro RPPS: identification du professionel de santé (toutes professions confondus)</p>
+<p>INS = Identifiant national de Santé (doit etre confirmé sur présentation de la carte)</p>
+<ul class="simple">
+<li>Video: site du CNOP Onglet communication / Videos</li>
+<li>BMP: Bilan Medical Personalisé</li>
+</ul>
+<p>Preparation magistrale  (penser a rentrer le numéro ordonnancier)</p>
+<ul class="simple">
+<li>Logiciel preparatoire (Pharmagest pas intéréssé mais existai avant chez CIP)</li>
+</ul>
+<p>Difference entre robot et automate</p>
+<p>Checker confluence pour procedure demarrage Robot</p>
+<ul class="simple">
+<li>Equipe officinale<ul>
+<li>Pharmacien titulaire: Chef d’entreprise</li>
+</ul>
+</li>
+</ul>
+<p>Vente pharmacie (cession): 100% du chiffre d’affaire annuel (plus ou moins).</p>
+<ul class="simple">
+<li>Structure:<ul>
+<li>nom propre (moins populaire aujd)</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="l-economie-de-la-pharmacie">
+<h3>L’économie de la pharmacie<a class="headerlink" href="#l-economie-de-la-pharmacie" title="Permalink to this heading">#</a></h3>
+<div class="section" id="produits-et-services-commercialises">
+<h4>Produits et services commercialisés<a class="headerlink" href="#produits-et-services-commercialises" title="Permalink to this heading">#</a></h4>
+<p>LPPR: Liste …</p>
+<p>Tarif LPP: calcul la base de remboursement</p>
+<p>ACL / GTIN (supermarché)</p>
+<div class="section" id="le-circuit-du-medicament">
+<h5>Le circuit du médicament<a class="headerlink" href="#le-circuit-du-medicament" title="Permalink to this heading">#</a></h5>
+<p>RCP: résumé caracteristique produit</p>
+<p>UNCAM: Union national Caisse assurance maladies (Quel type de prise en charge)</p>
+<p>Comité économique des produits de santé</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Mediator film: La fille de Brest</p>
+</div>
+<p>CEPS (mettre a jour les prix automatiquement)</p>
+<p>4 phases …</p>
+</div>
+</div>
+<div class="section" id="remuneration-de-de-la-pharmacie">
+<h4>Rémunération de de la pharmacie<a class="headerlink" href="#remuneration-de-de-la-pharmacie" title="Permalink to this heading">#</a></h4>
+</div>
+<div class="section" id="chiffres-cles">
+<h4>Chiffres clés<a class="headerlink" href="#chiffres-cles" title="Permalink to this heading">#</a></h4>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./content"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Appendix/to-check.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">To check</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="FormationD2.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Formation Day 2</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#matin">28/11 Matin</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-metier-du-pharmacien-et-son-environnement">Le métier du pharmacien et son environnement</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#pharmacie-d-officine-definition">Pharmacie d’officine definition</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#pilliers">3 pilliers</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#monopole">Monopole</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#conditions-d-exercices">Conditions d’exercices</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-economie-de-la-pharmacie">L’économie de la pharmacie</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#produits-et-services-commercialises">Produits et services commercialisés</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#le-circuit-du-medicament">Le circuit du médicament</a></li>
+</ul>
+</li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#remuneration-de-de-la-pharmacie">Rémunération de de la pharmacie</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#chiffres-cles">Chiffres clés</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+  <div class="tocsection sourcelink">
+    <a href="../_sources/content/FormationD1.md">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+  <p class="copyright">
+    
+      © Copyright 2023, Vincent Deguin.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.3.0.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item"><p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.13.3.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

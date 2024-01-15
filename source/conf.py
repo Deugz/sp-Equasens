@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Encyclopedia 3.A'
+project = 'Pharmagest'
 copyright = '2023, Vincent Deguin'
 author = 'Vincent Deguin'
 release = '0.0.1'
@@ -52,15 +52,30 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "**.ipynb_checkpoints"]
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'pydata_sphinx_theme'
-html_logo = "_static/Logo/Encyclopedia-logo.png"
-html_favicon = "_static/Logo/Encyclopedia-logo.png"
+html_logo = "_static/Logo/Logo-Equasens.jpg"
+html_favicon = "_static/Logo/Logo-Equasens.jpg"
 html_static_path = ['_static']
 
 html_theme_options = {
     "external_links": [
         {
-            "url": "https://deugz.github.io/jb-pharma2/_build/html/intro.html",
-            "name": "&nbsp &nbsp &nbsp &nbsp 💫 Année 2",
+            "url": "",
+            "name": "&nbsp &nbsp &nbsp &nbsp 💫 Logiciel ID &nbsp",
+            "attributes": {"target": "_blank"},
+        },
+        {
+            "url": "",
+            "name": "&nbsp &nbsp &nbsp &nbsp 💫 ID.Decisionel &nbsp",
+            "attributes": {"target": "_blank"},
+        },
+        {
+            "url": "",
+            "name": "&nbsp &nbsp &nbsp &nbsp 💫 ID.Mobilité &nbsp",
+            "attributes": {"target": "_blank"},
+        },
+        {
+            "url": "",
+            "name": "&nbsp &nbsp &nbsp &nbsp 💫 OFFIMSS &nbsp",
             "attributes": {"target": "_blank"},
         },
 
@@ -96,9 +111,9 @@ html_theme_options = {
     
 
     "logo": {
-        "text": " &nbsp V. Deguin &nbsp ",
-        "image_dark": "_static/Logo/logo_SFTP.png",
-        "alt_text": " &nbsp V. Deguin &nbsp &nbsp",
+        "text": " &nbsp Pharmagest &nbsp &nbsp ",
+        "image_dark": "_static/Logo/Logo-Equasens.jpg",
+        "alt_text": " &nbsp Pharmagest &nbsp &nbsp",
     },
     
     
@@ -107,7 +122,7 @@ html_theme_options = {
 }
 
 
-html_css_files = ["css/custom_style.css", "css/Cube.css", "css/coffee_cup.css", "css/kittons.css", "css/style_book_shell.css", "css/style_flipping_card.css", "css/style_wheel.css"]
-html_js_files = ["assets/script/kittons.js", "assets/script/script_flipping_card.js", "assets/script/script_wheel.js", "assets/script/scriptvideo.js", "assets/script/slideshow.js"]
+html_css_files = ["css/custom_style.css",]
+html_js_files = []
 
     

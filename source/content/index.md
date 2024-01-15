@@ -1,26 +1,33 @@
-# Home
+# Acceuil
+
 
 ```{toctree}
-:maxdepth: 2
-:caption: Introduction
+:maxdepth: 3
+:caption: Présentations
 :hidden:
 
-Introduction/Definition
-Introduction/Objectifs
-Introduction/Roadmap
+Introduction/Présentations/Equasens/Info
+Introduction/Présentations/Profil/V-Deguin
+
 ```
 
 ```{toctree}
 :maxdepth: 2
-:caption: Sections
+:caption: Projet
 :hidden:
 
-Sections/Panorama
-Sections/Science
-Sections/Education
-Sections/Music
-Sections/Pharma
-Sections/Societe
+Introduction/Projet/Definition
+Introduction/Projet/Objectifs
+Introduction/Projet/Roadmap
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: Solutions
+:hidden:
+
+Solutions/ID
+
 
 
 ```
@@ -31,6 +38,8 @@ Sections/Societe
 :hidden:
 
 Appendix/to-check
+FormationD1
+FormationD2
 
 ```
 
