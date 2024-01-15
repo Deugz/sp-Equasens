@@ -39,4 +39,11 @@ J'ai les outils (Jupyter Book) pour monter un grand projet. J'ai envie de progr�
 
 - Monter un Projet et créer les outils 
 
+```{warning}
+
+Ce projet est actuellement inactif et représente une archive de la période ou j'ai travaillé chez Pharmagest
+
+
+```
+
 

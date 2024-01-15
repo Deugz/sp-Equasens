@@ -59,23 +59,23 @@ html_static_path = ['_static']
 html_theme_options = {
     "external_links": [
         {
-            "url": "",
+            "url": "https://deugz.github.io/jb-ID/_build/html/intro.html",
             "name": "&nbsp &nbsp &nbsp &nbsp 💫 Logiciel ID &nbsp",
             "attributes": {"target": "_blank"},
         },
         {
-            "url": "",
+            "url": "https://deugz.github.io/jb-ID-decisionel/_build/html/intro.html",
             "name": "&nbsp &nbsp &nbsp &nbsp 💫 ID.Decisionel &nbsp",
             "attributes": {"target": "_blank"},
         },
         {
-            "url": "",
+            "url": "https://deugz.github.io/jb-ID-PDA/_build/html/intro.html",
             "name": "&nbsp &nbsp &nbsp &nbsp 💫 ID.Mobilité &nbsp",
             "attributes": {"target": "_blank"},
         },
         {
-            "url": "",
-            "name": "&nbsp &nbsp &nbsp &nbsp 💫 OFFIMSS &nbsp",
+            "url": "https://deugz.github.io/jb-ID-Officentral/_build/html/intro.html",
+            "name": "&nbsp &nbsp &nbsp &nbsp 💫 OffiCentral &nbsp",
             "attributes": {"target": "_blank"},
         },
 
